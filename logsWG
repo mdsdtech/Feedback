@@ -1,0 +1,15 @@
+Thu Sep  9 12:52:01 2021 daemon.notice netifd: Interface 'WG0' is setting up now
+Thu Sep  9 12:52:01 2021 user.notice ModemManager: hotplug: add network interface WG0: event processed
+Thu Sep  9 12:52:01 2021 user.notice ModemManager: hotplug: event reported: action=add, name=WG0, subsystem=net
+Thu Sep  9 12:52:01 2021 user.notice ModemManager: hotplug: error: parent device sysfspath not found
+Thu Sep  9 12:52:01 2021 daemon.notice netifd: Interface 'WG0' is now up
+Thu Sep  9 12:52:01 2021 daemon.notice netifd: Network device 'WG0' link is up
+Thu Sep  9 12:52:02 2021 user.info mwan3rtmon[4435]: Detect rtchange event.
+Thu Sep  9 12:52:02 2021 user.notice firewall: Reloading firewall due to ifup of WG0 (WG0)
+Thu Sep  9 12:52:03 2021 user.notice wrtbwmon: Restart for ifup of WG0 (WG0)
+Thu Sep  9 12:52:05 2021 user.notice vpnbypass [17661]: service monitoring interfaces: xderm libernet USBWAN
+Thu Sep  9 12:54:58 2021 daemon.notice netifd: Network device 'WG0' link is down
+Thu Sep  9 12:54:58 2021 user.notice ModemManager: hotplug: remove network interface WG0: event processed
+Thu Sep  9 12:54:58 2021 user.notice ModemManager: hotplug: event reported: action=remove, name=WG0, subsystem=net
+Thu Sep  9 12:54:58 2021 daemon.notice netifd: Interface 'WG0' is now down
+Thu Sep  9 12:55:02 2021 user.notice vpnbypass [20338]: service monitoring interfaces: xderm libernet USBWAN
